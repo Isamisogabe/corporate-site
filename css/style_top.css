@@ -1,6 +1,9 @@
 html {
   font-size: 62.5%; }
 
+body {
+  font-family: "Raleway"; }
+
 header {
   background: #eaf2f4; }
   header #header_in {
@@ -103,9 +106,13 @@ header {
 
 #cover_area {
   text-align: center;
-  padding: 80px 0;
+  padding: 0;
+  height: 420px;
   background-image: url(../images/top/cover.jpg);
   background-size: cover; }
+  #cover_area img {
+    margin-top: 180px;
+    margin-left: 70px; }
   @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
     #cover_area {
       background-image: url("../images/top/cover@2x.jpg"); } }
@@ -242,4 +249,4 @@ h1 {
   margin: 0;
   padding: 0; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style_top.css.map */
